@@ -5,6 +5,8 @@ function greeting() {
     console.log('this is in greeting after sayHi');
 }
 
+console.log('-------------------------------')
+
 function sayHi() {
     console.log("hi!");
 }
@@ -24,7 +26,7 @@ function externalTimeout (ms) {
 }
 
 console.log('first');
-// change the times to see what happens
+//change the times to see what happens
 
 externalTimeout(0);
 
